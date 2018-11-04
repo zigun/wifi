@@ -25,10 +25,10 @@ session_start();
     </div>
     <div class="card-body">
       <div class="text-center pd-5">
-        <img src="img/favicon.png" alt="MIKHMON Logo">
+        <img src="img/favicon.png" alt="Aero Logo">
       </div>
       <div  class="text-center">
-      <span style="font-size: 25px; margin: 10px;">MIKHMON</span>
+      <span style="font-size: 25px; margin: 10px;">AERO Wirelless</span>
       </div>
       <form autocomplete="off" action="" method="post">
       <table class="table">
@@ -54,7 +54,7 @@ session_start();
         </tr>
       </table>
       </form>
-    
+
     </div>
   </div>
 </div>

@@ -32,8 +32,7 @@ error_reporting(0);
   		<!-- Mikhmon UI -->
   		<link rel="stylesheet" href="css/mikhmon-ui.min.css">
 		<link rel="icon" href="./img/favicon.png" />
-		<title>.:: MIKHMON <?php echo $hotspotname;?> ::.</title>
+		<title>.:: AERO Wirelless <?php echo $hotspotname;?> ::.</title>
 	</head>
 	<body>
 		<div class="wrapper" >
-			

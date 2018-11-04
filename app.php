@@ -126,7 +126,7 @@ $disable_sci = '<script>
 // logout
 if($hotspot == "logout"){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Logout...</b>";
-  
+
   session_destroy();
   echo "<script>window.location='./admin.php?id=login'</script>";
 }
@@ -162,7 +162,7 @@ elseif($hotspot == "about"){
 // bad request
 elseif(substr($url,-1) == "="){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Bad request! redirect to Home......</b>";
-  
+
   echo "<script>window.location='./'</script>";
 }
 
@@ -238,35 +238,35 @@ elseif(substr($hotspotuser,0,1) == "*"){
 // remove hotspot user
 elseif($removehotspotuser != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removehotspotuser.php');
 }
 
 // remove hotspot user by comment
 elseif($removehotspotuserbycomment != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removehotspotuserbycomment.php');
 }
 
 // reset hotspot user
 elseif($resethotspotuser != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/resethotspotuser.php');
 }
 
 // enable hotspot user
 elseif($enablehotspotuser != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/enablehotspotuser.php');
 }
 
 // disable hotspot user
 elseif($disablehotspotuser != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/disablehotspotuser.php');
 }
 
@@ -291,7 +291,7 @@ elseif(substr($userprofile,0,1) == "*"){
 // remove user profile
 elseif($removeuserprofile != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removeuserprofile.php');
 }
 
@@ -327,7 +327,7 @@ elseif($hotspot == "cookies"){
 // remove hotspot Cookies
 elseif($removecookie != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removecookie.php');
 }
 
@@ -339,7 +339,7 @@ elseif($hotspot == "ipbinding"){
 // remove enable disable ipbinding
 elseif($removeipbinding != "" || $enableipbinding != "" || $disableipbinding != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/pipbinding.php');
 }
 
@@ -347,14 +347,14 @@ elseif($removeipbinding != "" || $enableipbinding != "" || $disableipbinding != 
 // remove user active
 elseif($removeuseractive != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removeuseractive.php');
 }
 
 // remove host
 elseif($removehost != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removehost.php');
 }
 
@@ -362,7 +362,7 @@ elseif($removehost != ""){
 // makebinding
 elseif($macbinding != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/makebinding.php');
 }
 
@@ -384,7 +384,7 @@ elseif($ppp== "addsecret"){
 // remove enable disable secret
 elseif($removesecr != "" || $enablesecr != "" || $disablesecr != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/psecret.php');
 }
 
@@ -397,7 +397,7 @@ elseif($ppp== "profiles"){
 // remove enable disable profile
 elseif($removepprofile != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removepprofile.php');
 }
 
@@ -409,7 +409,7 @@ elseif($ppp== "active"){
 // remove ppp active connection
 elseif($removepactive != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/removepactive.php');
 }
 
@@ -420,7 +420,7 @@ elseif($sys == "scheduler"){
 // remove enable disable scheduler
 elseif($removesch != "" || $enablesch != "" || $disablesch != ""){
   echo "<b class='cl-w'><i class='fa fa-circle-o-notch fa-spin' style='font-size:24px'></i> Processing...</b>";
-  
+
   include_once('./process/pscheduler.php');
 }
 
@@ -500,4 +500,3 @@ $(document).ready(function(){
 ?>
 </body>
 </html>
-

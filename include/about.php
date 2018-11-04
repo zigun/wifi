@@ -30,15 +30,14 @@ if(!isset($_SESSION["mikhmon"])){
         <h3><i class="fa fa-info-circle"></i> About</h3>
       </div>
       <div class="card-body">
-        <h3>MIKHMON V3.4</h3>
+        <h3>AERO HOTSPOT SYSTEM V3.4</h3>
 <p>
-  Aplikasi ini dipersembahkan untuk pengusaha hotspot di manapun Anda berada.
-  Semoga makin sukses.
+  Aplikasi ini digunakan untuk managemen hotspot milik Aero Net.
 </p>
 <p>
   <ul>
     <li>
-      Author : Laksamadi Guko
+      Author : Hardi Agunadi 2018
     </li>
     <li>
       Licence : <a href="https://github.com/laksa19/mikhmonv2/blob/master/LICENSE">GPLv2</a>
@@ -46,19 +45,19 @@ if(!isset($_SESSION["mikhmon"])){
     <li>
       API Class : <a href="https://github.com/BenMenking/routeros-api">routeros-api</a>
     </li>
-    <li>
+    <!--li>
       Website : <a href="https://laksa19.github.io">laksa19.github.io</a>
-    </li>
-    <li>
+    </li-->
+    <!--li>
       Facebook : <a href="https://fb.com/laksamadi">fb.com/laksamadi</a>
-    </li>
+    </li-->
   </ul>
 </p>
-<p>
+<!--p>
   Terima kasih untuk semua yang telah mendukung pengembangan MIKHMON.
-</p>
+</p-->
 <div>
-    <i>Copyright &copy; <i> 2018 Laksamadi Guko</i></i>
+    <i>Copyright &copy; <i> 2018 CV. Mitra Tech Aero</i></i>
 </div>
 </div>
 </div>
