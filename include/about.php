@@ -32,12 +32,12 @@ if(!isset($_SESSION["mikhmon"])){
       <div class="card-body">
         <h3>AERO HOTSPOT SYSTEM V3.4</h3>
 <p>
-  Aplikasi ini digunakan untuk managemen hotspot milik Aero Net.
+  Aplikasi ini digunakan untuk managemen hotspot CV. Mitra Tech Aero.
 </p>
 <p>
   <ul>
     <li>
-      Author : Hardi Agunadi 2018
+      Author : Hardi Agunadi / HP WA 085-743-363-803
     </li>
     <li>
       Licence : <a href="https://github.com/laksa19/mikhmonv2/blob/master/LICENSE">GPLv2</a>
