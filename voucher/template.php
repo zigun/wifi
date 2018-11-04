@@ -1,4 +1,29 @@
 
+
+<?php
+// Copy Paste ke template editor [Settings -> Template Editor].
+
+if(substr($validity,-1) == "d"){
+  $validity = "Aktif:".substr($validity,0,-1)."Hari";
+}else if(substr($validity,-1) == "h"){
+  $validity = "Aktif:".substr($validity,0,-1)."Jam";
+}
+if(substr($timelimit,-1) == "d" & strlen($timelimit) >3){
+  $timelimit = "Durasi:".((substr($timelimit,0,-1)*7) +  substr($timelimit, 2,1))."Hari";
+}else if(substr($timelimit,-1) == "d"){
+  $timelimit = "Durasi:".substr($timelimit,0,-1)."Hari";
+}else if(substr($timelimit,-1) == "h"){
+  $timelimit = "Durasi:".substr($timelimit,0,-1)."Jam";
+}else if(substr($timelimit,-1) == "w"){
+  $timelimit = "Durasi:".(substr($timelimit,0,-1)*7)."Hari";
+}
+if($datalimit == ""){
+  $kuota = "";
+}else{
+  $kuota = "Kuota:";
+}
+
+?>
 <table class="voucher" style=" width: 220px;">
   <tbody>
 <!-- Logo Hotspotname -->
@@ -61,12 +86,16 @@
 <!-- /  -->
     <tr>
       <!-- Price  -->
-      <td colspan="2" style="border-top: 1px solid black;font-weight:bold; font-size:16px"><?php echo $validity;?> <?php echo $timelimit;?> <?php echo $datalimit;?> <?php echo $price;?></td>
+      <td colspan="2" style="border-top: 1px solid black;font-weight:bold; font-size:12px;"> <?php echo $price;?></td>
+    </tr>
+    <tr>
+      <!-- Limit -->
+      <td colspan="2" style="border-top: 1px solid black;font-weight:bold; font-size:10px"><?php echo $validity;?> <?php echo $timelimit;?> <?php echo $kuota.$datalimit;?></td>
 <!-- /  -->
     </tr>
     <tr>
       <!-- Note  -->
-      <td colspan="2" style="font-weight:bold; font-size:12px">Login: http://<?php echo $dnsname;?></td>
+      <td colspan="2" style="font-weight:bold; font-size:10px">Login: http://<?php echo $dnsname;?></td>
 <!-- /  -->
     </tr>
 <!-- /  -->

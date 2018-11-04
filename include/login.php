@@ -28,7 +28,7 @@ session_start();
         <img src="img/favicon.png" alt="Aero Logo">
       </div>
       <div  class="text-center">
-      <span style="font-size: 25px; margin: 10px;">AERO Wirelless</span>
+      <span style="font-size: 25px; margin: 10px;">AERO Wireless</span>
       </div>
       <form autocomplete="off" action="" method="post">
       <table class="table">

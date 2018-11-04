@@ -141,7 +141,7 @@ echo "<meta http-equiv='refresh' content='0;url=./admin.php?id=sessions' />";
   $logopath = "./img/";
   $remlogo = $logopath.$logo;
   unlink("$remlogo");
-  echo "<script>window.location='./admin.php?id=uplogo&session=kemangi41'</script>";
+  echo "<script>window.location='./admin.php?id=uplogo&session=aero'</script>";
 }elseif ($id == "editor") {
   include_once('./include/menu.php');
   include_once('./include/vouchereditor.php');

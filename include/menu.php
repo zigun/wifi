@@ -134,7 +134,7 @@ if($hotspot == "dashboard"){
 
 <div id="navbar" class="navbar">
   <div class="navbar-left">
-    <a id="brand" class="text-center" href="javascript:void(0)"><span>MIKHMON</span></a>
+    <a id="brand" class="text-center" href="javascript:void(0)"><span>AERO Wireless</span></a>
 
 <a id="openNav" class="navbar-hover" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
 <a id="closeNav" class="navbar-hover" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
@@ -164,7 +164,7 @@ if($hotspot == "dashboard"){
 
 <div id="navbar" class="navbar">
   <div class="navbar-left">
-    <a id="brand" class="text-center" href="./app.php?hotspot=dashboard&session=<?php echo $session;?>"><span>MIKHMON</span></a>
+    <a id="brand" class="text-center" href="./app.php?hotspot=dashboard&session=<?php echo $session;?>"><span>AERO Wireless</span></a>
 
 <a id="openNav" class="navbar-hover" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
 <a id="closeNav" class="navbar-hover" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
